@@ -1,0 +1,41 @@
+
+.experiencia-intro {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("http://wicklowvoice.ie/wp-content/uploads/2015/01/Business-job.jpg");
+  background-repeat: no-repeat;
+  background-position: right 60%;
+  background-size: cover;
+}
+.cover{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30,30,255, 0.6);
+  border: 3px solid rgba(30,30,255, 0.6);
+}
+.exp-title{
+  margin-top: 140px;
+  margin-left: 60px;
+  color: white;
+}
+
+.exp-title h1 {
+  font-size: 65px;
+  color: rgb(255, 255, 255)
+}
+
+.exp-title h3 {
+  font-size: 35px;
+  color: rgb(255, 255, 255)
+}
+
+@media only screen and (max-width: 500px) {
+  .experiencia-intro {
+    height: 200px;
+  }
+  .exp-title{
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+}
