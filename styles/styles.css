@@ -52,7 +52,6 @@
   color: rgb(20,20,230);
   font-family: inherit;
   height: auto;
-  border: 1px solid orange;
   padding: 20px;
 }
 
@@ -62,7 +61,6 @@
   margin: 10px;
   width: 300px;
   display: inline-block;
-  border: 1px solid red;
 }
 .byp-subinfo p {
   border-top: 1.5px solid rgb(20,20,255);
