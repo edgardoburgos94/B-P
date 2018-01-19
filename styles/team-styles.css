@@ -1,0 +1,57 @@
+.team-introduction {
+  max-width: 100%;
+  height: 600px;
+  background-image: url("../imagenes/team.jpg");
+  background-size: cover;
+  background-position: center 100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.beatriz {
+  float: left;
+  width: 50%;
+  height: 100%;
+  min-width: 375px;
+  background-color: rgba(0,0,0,0.66);
+}
+
+.felix {
+  float: left;
+  width: 50%;
+  height: 100%;
+  min-width: 375px;
+  background-color: rgba(0,0,0,0.66);
+}
+
+.team-description {
+  color: white;
+  margin: auto;
+  margin-top: 5%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 90%;
+}
+
+.team-description p, li {
+  color: white;
+}
+
+@media only screen and (max-width: 764px) {
+  .team-description {
+    color: white;
+  }
+  .beatriz {
+    height: 500px;
+    width: 100%;
+  }
+  .felix {
+    height: 500px;
+    width: 100%;
+  }
+  .team-introduction {
+    height: 1000px;
+    background-position: center center;
+}
