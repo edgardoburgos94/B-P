@@ -4,7 +4,7 @@
   height: 350px;
   background-image: url("../imagenes/Business-job.jpg");
   background-repeat: no-repeat;
-  background-position: center 10%;
+  background-position: center center;
   background-size: cover;
 }
 .cover{
