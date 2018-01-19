@@ -11,18 +11,21 @@
 
 .beatriz {
   float: left;
+  text-align: center;
   width: 50%;
   height: 100%;
   min-width: 375px;
-  background-color: rgba(0,0,0,0.66);
+  background-color: rgba(0,0,0,0.7);
 }
 
 .felix {
   float: left;
+  text-align: center;
+
   width: 50%;
   height: 100%;
   min-width: 375px;
-  background-color: rgba(0,0,0,0.66);
+  background-color: rgba(0,0,0,0.7);
 }
 
 .team-description {
@@ -31,12 +34,36 @@
   margin-top: 5%;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 2px solid rgb(150, 150, 150);
   width: 90%;
+}
+
+.team-description h1 {
+  padding: 10px;
+  border-bottom: 3px solid rgb(150, 150, 150);
+  margin-bottom: 30px;
 }
 
 .team-description p, li {
   color: white;
+  font-size: 15px;
+}
+
+.team-introduction a {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.team-introduction ul {
+  width: auto;
+}
+
+.boton {
+  color: white;
+  background: rgb(50, 50, 255);
+  border: rgb(50, 50, 255);
+  border-radius: 5px;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 764px) {
@@ -54,4 +81,8 @@
   .team-introduction {
     height: 1000px;
     background-position: center center;
+  }
+  .team-description p, li {
+    font-size: 14px;
+  }
 }
