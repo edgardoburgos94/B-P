@@ -1,0 +1,13 @@
+.contact-info {
+  margin: 5%;
+  padding: 20px;
+  background-color: rgb(240,240,240);
+  width: 45%;
+  min-width: 300px;
+  border-bottom-right-radius: 50px;
+  border: 1px solid  rgb(200,200,200);
+}
+
+.contact-info h1 {
+  color: rgb(75,75,255);
+}
