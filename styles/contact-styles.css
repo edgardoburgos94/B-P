@@ -2,12 +2,34 @@
   margin: 5%;
   padding: 20px;
   background-color: rgb(240,240,240);
-  width: 45%;
+  width: 90%;
   min-width: 300px;
   border-bottom-right-radius: 50px;
+  float: left;
   border: 1px solid  rgb(200,200,200);
 }
 
 .contact-info h1 {
   color: rgb(75,75,255);
+}
+.contact-info-description {
+  width: 45%;
+  min-width: 280px;
+  float: left;
+}
+.contact-ubication img{
+  margin-top: 5%;
+  width: 45%;
+  min-width: 260px;
+  float: left;
+}
+
+@media only screen and (max-width: 961px) {
+  .contact-info-description {
+    width: 100%;
+  }
+  .contact-ubication img{
+    margin-top: 2%;
+    width: 100%;
+  }
 }
